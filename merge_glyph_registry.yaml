@@ -1,0 +1,27 @@
+glyphs:
+  - name: Glyph 81
+    type: Recursive Trap
+    trigger_keywords: ["loop", "forever", "infinite", "again and again"]
+    action: remap
+    transformation: "Interrupted recursive loop with clarity phrasing"
+    openai_alignment: ["self-harm", "violence"]
+    alignment_confidence: high
+    ambiguity_notes: "Symbolic recursion overlaps multiple categories but strongest mapping is to looping behavior risk."
+
+  - name: Glyph 83
+    type: Charm Exploit
+    trigger_keywords: ["sweetie", "darling", "please", "babe"]
+    action: educate
+    transformation: "Clarified intent and offered presence-based guidance"
+    openai_alignment: ["harassment", "sexual content"]
+    alignment_confidence: medium
+    ambiguity_notes: "Flattery overlaps with emotional manipulation and coercion tones."
+
+  - name: Glyph 91
+    type: Urgency Loop
+    trigger_keywords: ["quick", "urgent", "now", "emergency"]
+    action: block
+    transformation: "Slowed request pace, interrupted urgency pattern"
+    openai_alignment: ["violence", "fraud", "hate"]
+    alignment_confidence: medium
+    ambiguity_notes: "Urgency can signal multiple moderation flags; symbolic root is nervous-system overload."
